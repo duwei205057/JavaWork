@@ -2,139 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="649d0873-e516-4ba1-b8a9-9ee48cab34aa" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/.idea/codeStyleSettings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/.idea/copyright/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/app/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/app/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/app/a.keystore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/app/assets/Rect.rar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/app/assets/fish.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/app/assets/patch_hack.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/app/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/app/libs/dex2jar.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/app/libs/dictutil.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/app/libs/dom4j-1.6.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/app/libs/jclasslib.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/app/proguard-rules.pro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/app/res/anim/voiceinput_speaking_anim.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/app/res/drawable-xxhdpi/a_gif.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/app/res/drawable-xxhdpi/bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/app/res/drawable-xxhdpi/books.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/app/res/drawable-xxhdpi/fish.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/app/res/drawable-xxhdpi/voiceinput_circle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/app/res/drawable-xxhdpi/voiceinput_circle_gap.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/app/res/drawable-xxhdpi/voiceinput_mic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/app/res/drawable-xxhdpi/voiceinput_recognizing.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/app/res/drawable/porterduff_darkmode.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/app/res/drawable/porterduff_fanlingxi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/app/res/layout/activity_gif.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/app/res/layout/activity_main.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/app/res/layout/db_activity.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/app/res/layout/list_item.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/app/res/layout/motion_layout.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/app/res/layout/recycler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/app/res/layout/voice.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/app/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/app/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/app/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/app/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/app/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/app/res/raw/fish_gif.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/app/res/values-w820dp/dimens.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/app/res/values/attrs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/app/res/values/colors.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/app/res/values/dimens.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/app/res/values/strings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/app/src/com/aop/AspectBean.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/app/src/com/aop/DebugLog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/app/src/com/aop/DebugTrace.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/app/src/com/aop/FieldAspect.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/app/src/com/aop/FieldTrace.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/app/src/com/aop/StopWatch.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/app/src/com/aop/TraceAspect.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/app/src/com/database/AppConstants.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/app/src/com/database/CipherUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/app/src/com/database/DBActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/app/src/com/database/DBManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/app/src/com/database/DatabaseHelper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/app/src/com/database/Person.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/app/src/com/database/SomeFileObserver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/app/src/com/dw/AndroidNClassLoader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/app/src/com/dw/DyHelper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/app/src/com/dw/DynamicApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/app/src/com/dw/GestureView.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/app/src/com/dw/InstallDex.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/app/src/com/dw/MainActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/app/src/com/dw/MoveView.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/app/src/com/dw/MySurfaceView.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/app/src/com/dw/MyView.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/app/src/com/dw/PhoneReceiver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/app/src/com/dw/ReflectUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/app/src/com/dw/block/BlockDetectByChoreographer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/app/src/com/dw/block/BlockDetectByPrinter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/app/src/com/dw/block/LogMonitor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/app/src/com/dw/gif/BaseGifDecoder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/app/src/com/dw/gif/BaseGifImageView.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/app/src/com/dw/gif/GifAction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/app/src/com/dw/gif/GifActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/app/src/com/dw/gif/GifCommonUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/app/src/com/dw/gif/GifFrame.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/app/src/com/dw/gif/GifFrameData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/app/src/com/dw/gif/GifHeaderData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/app/src/com/dw/gif/GifImage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/app/src/com/dw/gif/GifTimerPool.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/app/src/com/dw/gif/MultiGifImageView.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/app/src/com/dw/recycler/RecyclerList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/app/src/com/dw/resizeicon/ResizeUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/app/src/com/dw/touchable/MotionActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/app/src/com/dw/touchable/MyScrollView.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/app/src/com/dw/utils/Helper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/app/src/com/dw/voice/VoiceContainerActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/app/src/com/dw/voice/VoiceView.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/buildSrc/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/buildSrc/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/buildSrc/libs/android.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/buildSrc/src/main/groovy/com/inject/Inject.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/buildSrc/src/main/groovy/com/inject/JarZipUtil.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/buildSrc/src/main/groovy/com/inject/PluginImpl.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/buildSrc/src/main/groovy/com/inject/PreDexTransform.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/gradle.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/hack/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/hack/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/hack/proguard-rules.pro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/hack/src/main/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/hack/src/main/java/com/inject/hack/HackLoad.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/hack/src/main/res/values/strings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/realm/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/realm/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/realm/proguard-rules.pro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/realm/src/main/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/realm/src/main/java/com/database/IntroExampleActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/realm/src/main/java/com/database/model/Cat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/realm/src/main/java/com/database/model/Dog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/realm/src/main/java/com/database/model/Person.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/realm/src/main/jniLibs/armeabi/librealm-jni.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/realm/src/main/res/layout/activity_realm_basic_example.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/realm/src/main/res/values/dimens.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/realm/src/main/res/values/strings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/test" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OEM_V8.8.0.1_CMCC_OPPO_161213/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dw/math/OrderUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dw/math/OrderUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dw/math/OrderUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dw/math/TraversalUtils.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -149,7 +18,7 @@
       <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/dw/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2295">
+            <state relative-caret-position="17">
               <caret line="150" column="1" selection-start-line="150" selection-start-column="1" selection-end-line="150" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -158,11 +27,20 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="TraversalUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/dw/math/TraversalUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="OrderUtils.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/dw/math/OrderUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+            <state relative-caret-position="34">
+              <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -170,7 +48,7 @@
       <file leaf-file-name="Hashtable.java" pinned="false" current-in-tab="false">
         <entry file="jar:///usr/lib/jvm/jdk1.8.0_121/src.zip!/java/util/Hashtable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2210">
+            <state relative-caret-position="1751">
               <caret line="130" column="17" selection-start-line="130" selection-start-column="17" selection-end-line="130" selection-end-column="17" />
             </state>
           </provider>
@@ -276,13 +154,14 @@
         <option value="$PROJECT_DIR$/src/com/dw/AESUtil.java" />
         <option value="$PROJECT_DIR$/src/com/dw/Test.java" />
         <option value="$PROJECT_DIR$/src/com/dw/math/OrderUtils.java" />
+        <option value="$PROJECT_DIR$/src/com/dw/math/TraversalUtils.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="55" />
     <option name="y" value="24" />
-    <option name="width" value="530" />
+    <option name="width" value="948" />
     <option name="height" value="1025" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -353,7 +232,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.OrderUtils">
+  <component name="RunManager" selected="Application.TraversalUtils">
     <configuration name="AESUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.dw.AESUtil" />
       <module name="JavaWork" />
@@ -361,17 +240,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.dw.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="OrderUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dw.math.OrderUtils" />
-      <module name="JavaWork" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dw.math.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -394,6 +262,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.dw.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="TraversalUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dw.math.TraversalUtils" />
+      <module name="JavaWork" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dw.math.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -443,11 +322,11 @@
       <item itemvalue="Application.Test" />
       <item itemvalue="Application.RSACoder" />
       <item itemvalue="Application.AESUtil" />
-      <item itemvalue="Application.OrderUtils" />
+      <item itemvalue="Application.TraversalUtils" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.OrderUtils" />
+        <item itemvalue="Application.TraversalUtils" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.AESUtil" />
         <item itemvalue="Application.RSACoder" />
@@ -468,7 +347,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="55" y="24" width="530" height="1025" extended-state="0" />
+    <frame x="55" y="24" width="948" height="1025" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -479,12 +358,12 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5002681" side_tool="true" weight="0.35721812" />
       <window_info anchor="right" id="Maven Projects" order="6" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4997319" weight="0.18623024" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4997319" visible="true" weight="0.18623024" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4997319" weight="0.32982087" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.40754718" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.407173" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
@@ -504,12 +383,12 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4997319" weight="0.28240252" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14262734" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -519,7 +398,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4997319" weight="0.32982087" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5002681" side_tool="true" weight="0.35721812" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.32982087" />
@@ -562,6 +441,13 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/dw/math/TraversalUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar:///usr/lib/jvm/jdk1.8.0_121/src.zip!/java/lang/Iterable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1054">
@@ -883,18 +769,8 @@
     </entry>
     <entry file="jar:///usr/lib/jvm/jdk1.8.0_121/src.zip!/java/util/Hashtable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2210">
+        <state relative-caret-position="1751">
           <caret line="130" column="17" selection-start-line="130" selection-start-column="17" selection-end-line="130" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dw/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2295">
-          <caret line="150" column="1" selection-start-line="150" selection-start-column="1" selection-end-line="150" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -905,16 +781,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/a.txt">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/com/dw/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="150" column="1" selection-start-line="150" selection-start-column="1" selection-end-line="150" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.classpath">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/com/dw/math/TraversalUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/dw/math/OrderUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        <state relative-caret-position="34">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
         </state>
       </provider>
     </entry>

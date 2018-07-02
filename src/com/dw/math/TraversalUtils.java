@@ -2,7 +2,7 @@ package com.dw.math;
 
 import java.util.Stack;
 
-public class OrderUtils {
+public class TraversalUtils {
 
 
     private static void preOrder(Node n) {
