@@ -1,6 +1,7 @@
 package com.dw.math;
 
-import java.util.Arrays;
+
+import java.util.*;
 
 public class OrderUtils {
 
@@ -154,6 +155,75 @@ public class OrderUtils {
         }
     }
 
+    public static List<String> topKFrequent1(String[] words, int k) {
+        if (k < 1 || k > words.length) return null;
+        PriorityQueue<Map.Entry<String ,Integer>> pq = new PriorityQueue<>(new Comparator<Map.Entry<String, Integer>>() {
+            @Override
+            public int compare(Map.Entry<String, Integer> o1, Map.Entry<String, Integer> o2) {
+                int c1 = o1.getValue();
+                String k1 = o1.getKey();
+                int c2 = o2.getValue();
+                String k2 = o2.getKey();
+                if (c1 > c2) return -1;
+                else if (c1 < c2) return 1;
+                else {
+                    return k1.compareTo(k2);
+                }
+            }
+        });
+        Map<String,Integer> m = new HashMap<>();
+        for (String s : words){
+            if (m.get(s) != null){
+                int c = m.get(s);
+                m.put(s , c + 1);
+            } else
+                m.put(s , 1);
+        }
+        for (Map.Entry<String ,Integer> entry: m.entrySet()) {
+            pq.offer(entry);
+        }
+        List<String> l = new ArrayList<>();
+        while (!pq.isEmpty() && k-- > 0){
+            l.add(pq.poll().getKey());
+        }
+        System.out.println(l);
+        return l;
+    }
+
+    public static List<String> topKFrequent2(String[] words, int k) {
+        if (words == null || words.length == 0) return null;
+        if (k >= words.length) k = words.length - 1;
+        Map<String,Integer> m = new HashMap();
+        for (String s : words){
+            Integer i = m.get(s);
+            if (i == null) m.put(s,0);
+            else m.put(s,i+1);
+        }
+        List l = new ArrayList(m.keySet());
+        Collections.sort(l,new Comparator<String>(){
+            public int compare(String lhs, String rhs) {
+                int i1 = m.get(lhs);
+                int i2 = m.get(rhs);
+                return i1 == i2 ? lhs.compareTo(rhs) : (i2 - i1);
+            }
+        });
+        System.out.println(l);
+        return l.subList(0,k);
+    }
+
+    public static void topKFrequent3(String[] words, int k) {
+        if (k < 1 || k > words.length) return;
+        Map<String,Integer> m = new HashMap<>();
+        for (String s : words){
+            if (m.get(s) != null){
+                int c = m.get(s);
+                m.put(s , c + 1);
+            } else
+                m.put(s , 1);
+        }
+        System.out.println();
+    }
+
     public static void main(String[] args) {
         int[] a = new int[]{3,6,8,1,3,4,9,1,10};
         bubbleSort(a);
@@ -162,6 +232,10 @@ public class OrderUtils {
         insertSort(a);
         heapSort(a);
         mergeSort(a);
+
+        String words[] = new String[]{"the", "day", "is", "sunny", "the", "the", "day", "sunny", "is", "is"};
+        topKFrequent1(words, 4);
+        topKFrequent2(words, 4);
     }
 
 }

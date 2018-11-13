@@ -5,6 +5,7 @@ import sun.security.provider.MD5;
 import java.awt.Point;
 import java.io.File;
 import java.io.IOException;
+import java.io.ObjectInputStream;
 import java.io.Reader;
 import java.lang.reflect.*;
 import java.security.MessageDigest;
@@ -13,6 +14,7 @@ import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+
 public class Test implements Comparable{
 
     int prop1;
@@ -20,7 +22,14 @@ public class Test implements Comparable{
     private long prop3 = 5;
     public static final Point value = new Point();
     private static final long _90DAYS_SECOND_TIME = 90 * 24 * 60 * 60;
+    enum Day implements Runnable{
+        MONDAY,SUNDAY;
 
+        @Override
+        public void run() {
+
+        }
+    }
 
     static void a() {
         int i = 0;
@@ -41,6 +50,12 @@ public class Test implements Comparable{
 //        throw new Exception("test");
     }
 
+    static void c(){
+        Day.MONDAY.ordinal();
+        Day.MONDAY.name();
+        Day.MONDAY.compareTo(Day.SUNDAY);
+    }
+
 
     public static void main(String[] args) throws IOException, NoSuchAlgorithmException {
         System.out.println("ab".getClass() == "cd".getClass());
@@ -52,6 +67,7 @@ public class Test implements Comparable{
         } catch (Exception e) {
             e.printStackTrace();
         }
+        c();
 
         String str1 = "ja";
         final String str2 = "va";
@@ -124,6 +140,22 @@ public class Test implements Comparable{
         Pattern p = Pattern.compile("([0-9|a-z|A-Z]{32}_){2}[0-9|a-z|A-Z]{32}");
         Matcher matcher = p.matcher("ffef3jg4kgfk3kf3kdkwkqwkwkekwkqw_1235698740qwertyuioplkjhgfdsazxc_1235698740qwertyuioplkjhgfdsazxc");
         System.out.println(matcher.matches());
+
+        System.out.println(Integer.toHexString(97));
+        System.out.println(Integer.toHexString(65));
+        System.out.println(String.valueOf((Object)null));
+
+        String cpu = "cpu1 MHz         : 1400.000";
+        String[] values = cpu.split("cpu MHz" + "(\\s)*:");
+        System.out.println(Arrays.toString(values));
+
+        System.out.println((float)1 / 4);
+        Object fo = new Float(4);
+        float flo = (float) fo;
+        System.out.println(flo);
+
+        int co = 0xFFFFFFFF;
+        System.out.println(co);
     }
 
     StringBuilder prop4 = new StringBuilder();
