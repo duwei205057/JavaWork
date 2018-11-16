@@ -95,6 +95,7 @@ public class Test2 {
         } catch (UnsupportedEncodingException e) {
             e.printStackTrace();
         }
+        System.out.println("dfdfe".getBytes().length);
     }
 
     private static void match(String input) {
