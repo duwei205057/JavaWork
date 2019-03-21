@@ -1,7 +1,10 @@
 package com.dw;
 
 import java.io.UnsupportedEncodingException;
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.HashSet;
+import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -96,6 +99,19 @@ public class Test2 {
             e.printStackTrace();
         }
         System.out.println("dfdfe".getBytes().length);
+        char[] kk = new char[3];kk[0] = 3; kk[1] = 'a'; kk[2] = 'b';
+        StringBuilder sb = new StringBuilder();
+        for(int ii = 0; ii < kk.length; ii++){
+            sb.append(ii).append(":").append((int)kk[ii]).append(";");
+        }
+        System.out.println(sb);
+        HashSet set = new HashSet<>();
+//        set.add("a");
+//        set.add("a");
+//        set.add("b");
+        List<String> result = new ArrayList(set);
+        String[] tmp = new String[result.size()];
+        System.out.println(result.toArray(tmp));
     }
 
     private static void match(String input) {

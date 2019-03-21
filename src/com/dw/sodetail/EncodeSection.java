@@ -61,7 +61,7 @@ public class EncodeSection {
         int nSize = mySectionSize/4096 + (mySectionSize%4096 == 0 ? 0 : 1);
         byte[] entry = new byte[4];
         entry = Utils.int2Byte((mySectionSize<<16) + nSize);
-        Utils.replaceByteAry(fileByteArys, 24, entry);
+        Utils.replaceByteAry(fileByteArys, 24, entry);// e_entry
         byte[] offsetAry = new byte[4];
         offsetAry = Utils.int2Byte(mySectionOffset);
 //        Utils.replaceByteAry(fileByteArys, 12, offsetAry);//存储信息在e_ident[16]后四个字节中

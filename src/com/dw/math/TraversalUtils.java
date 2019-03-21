@@ -10,10 +10,11 @@ public class TraversalUtils {
         while (n != null || !s.empty()) {
             if ( n != null) {
                 System.out.print(n);
-                if (n.getRight() != null) s.push(n.getRight());
+                s.push(n);
                 n = n.getLeft();
             } else {
                 n = s.pop();
+                n = n.getRight();
             }
         }
         System.out.println();

@@ -156,6 +156,28 @@ public class Test implements Comparable{
 
         int co = 0xFFFFFFFF;
         System.out.println(co);
+        byte bb[] = "1".getBytes("UTF-16");
+        for(byte bbc : bb) {
+            System.out.println(Integer.toHexString(bbc));
+        }
+        /*try{
+            bbc();
+        }catch (AException e) {
+            e.printStackTrace();
+        }*/
+        char cc = 0xbfe7;
+        byte[] bbb = new byte[]{(byte) 0xe7, (byte) 0xe5};
+        System.out.println(new String(bbb, "UTF-16LE"));
+    }
+
+    class AException extends RuntimeException {
+
+    }
+
+    private static void bbc() {
+        if (true) {
+            throw new RuntimeException("");
+        }
     }
 
     StringBuilder prop4 = new StringBuilder();
