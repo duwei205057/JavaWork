@@ -1,16 +1,16 @@
 package com.dw;
 
-import java.io.UnsupportedEncodingException;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.List;
+import com.sun.javafx.binding.StringFormatter;
+
+import java.io.*;
+import java.util.*;
+import java.util.concurrent.locks.ReentrantLock;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class Test2 {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws UnsupportedEncodingException {
         String a = "你";
         String b = a.replaceAll("\\b", "%");
         String c = "你们";
@@ -112,8 +112,36 @@ public class Test2 {
         List<String> result = new ArrayList(set);
         String[] tmp = new String[result.size()];
         System.out.println(result.toArray(tmp));
-    }
+        System.out.println(getString());
+        analysisMemSize();
 
+        /*try {
+            InputStream is = new FileInputStream("/home/dw/dwcache/111/3043a657d2c376e9d023eec51d9ddf71eabc5522281d53ff105a2ce85ccac972.0");
+            int ii = 0;
+            int outb;
+            while ((outb = is.read()) != -1) {
+                ii++;
+                if (outb == 0x2C) {
+                    int bb = 8;
+                }
+            }
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }*/
+        System.out.println((char)24464);
+        System.out.println((char)20581);
+        System.out.println((char)101);
+        System.out.println((char)53);
+        System.out.println((char)50);
+        System.out.println((char)101);
+        System.out.println((2 % 10000) / 1000);
+        Random mRandom = new Random(200);
+        System.out.println(mRandom.nextInt(1));
+        takeLock.unlock();
+    }
+    static ReentrantLock takeLock = new ReentrantLock();
     private static void match(String input) {
 //        Pattern emoji1 = Pattern.compile("\\ud83c[\\udffb-\\udfff](?=\\ud83c[\\udffb-\\udfff])|" +
 //                "(?:" +
@@ -154,5 +182,137 @@ public class Test2 {
         boolean r = x == target.length;
         System.out.println("base = "+base+" user="+user+" matches="+r);
         return r;
+    }
+
+    private static String getString() throws UnsupportedEncodingException {
+        String s = "\\xE6\\x82\\xA8\\xE5\\xB0\\x86\\xE6\\x94\\xB6\\xE5\\x88\\xB0\\xE5\\x9C\\xB0\\xE7\\x90\\x86\\xE4\\xBD\\x8D\\xE7\\xBD\\xAE\\xE6\\x9D\\x83\\xE9\\x99\\x90\\xE7\\x9A\\x84\\xE7\\xB3\\xBB\\xE7\\xBB\\x9F\\xE6\\x8F\\x90\\xE7\\xA4\\xBA\\xEF\\xBC\\x8C\\xE8\\xAF\\xB7\\xE6\\x94\\xBE\\xE5\\xBF\\x83\\xE9\\x80\\x89\\xE6\\x8B\\xA9\\xE5\\x85\\x81\\xE8\\xAE\\xB8\\xE3\\x80\\x82\\xE8\\xBE\\x93\\xE5\\x85\\xA5\\xE6\\xB3\\x95\\xE4\\xBC\\x9A\\xE4\\xB8\\xBA\\xE6\\x82\\xA8\\xE6\\x8F\\x90\\xE4\\xBE\\x9B\\xE6\\x89\\x80\\xE5\\x9C\\xA8\\xE5\\x9C\\xB0\\xE7\\x9A\\x84\\xE5\\xB8\\xB8\\xE7\\x94\\xA8\\xE8\\xAF\\x8D\\xE6\\xB1\\x87\\xE3\\x80\\x82";
+        String[] ss = s.split("\\\\x");
+        byte[] b = new byte[ss.length - 1];
+        for(int i = 0; i < b.length; i++) {
+            b[i] = (byte) (Integer.parseInt(ss[i + 1], 16) & 0xff);
+        }
+        return new String(b, "UTF-8");
+    }
+
+    private static void analysisMem() {
+        try {
+            File f = new File("/home/dw/a.txt");
+            System.out.println("a.txt exists ="+f.exists());
+            BufferedReader br = new BufferedReader(new FileReader(f));
+            String line;
+            String lastaddr = null, lastfunc = null;
+            HashMap<String, Integer> hm = new HashMap();
+            while((line = br.readLine()) != null) {
+                int addrIndex = line.indexOf("addr=");
+                if (addrIndex < 0) continue;
+                addrIndex += "addr=".length();
+                String addr = line.substring(addrIndex, addrIndex + 8);
+                int funcIndex = line.indexOf("func=") + "func=".length();
+                String func = line.substring(funcIndex, funcIndex + 8);
+                if (lastaddr != null && !lastaddr.equals(addr)) {
+                    if (hm.containsKey(lastfunc)) {
+                        int count = hm.get(lastfunc);
+                        hm.put(lastfunc, count + 1);
+                    } else {
+                        hm.put(lastfunc, 1);
+                    }
+                }
+                lastaddr = addr;
+                lastfunc = func;
+            }
+            br.close();
+            List<CountObj> l = new ArrayList();
+            for (Map.Entry<String, Integer> entry : hm.entrySet()) {
+                l.add(new CountObj(entry.getValue(), entry.getKey()));
+            }
+            Collections.sort(l);
+            File out = new File("/home/dw/a_out.txt");
+            FileWriter fw = new FileWriter(out);
+            StringBuilder sb = new StringBuilder();
+            for (CountObj countObj : l) {
+                Process process = Runtime.getRuntime().exec(String.format("addr2line -i -f -e /home/dw/workspace/SogouInput/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libsogouime.so %s", countObj.name));
+                InputStream inputStream = process.getInputStream();
+                br = new BufferedReader(new InputStreamReader(inputStream));
+                sb.setLength(0);
+                while ((line = br.readLine()) != null) {
+                    sb.append(line+"\n");
+                }
+                br.close();
+                countObj.stack = sb.toString();
+                fw.write("---------------------------" + countObj.name + ":" + countObj.count + "\n");
+                fw.write("stack:" + countObj.stack);
+            }
+            fw.close();
+
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    private static void analysisMemSize() {
+        try {
+            File f = new File("/home/dw/b.txt");
+            System.out.println("b.txt exists ="+f.exists());
+            BufferedReader br = new BufferedReader(new FileReader(f));
+            String line;
+            String lastaddr = null, lastfunc = null;
+            HashMap<String, Integer> hm = new HashMap();
+            int total = 0;
+            int lineNo = 0;
+            while((line = br.readLine()) != null) {
+                lineNo ++;
+                int startIndex = line.indexOf("size = ");
+                if (startIndex < 0) continue;
+                String addr = line.substring(startIndex - 11, startIndex - 1);
+                String oldaddr = line.substring(startIndex - 22, startIndex - 12);
+                startIndex += "size = ".length();
+                int endIndex = line.indexOf("malloc by");
+                String mem = line.substring(startIndex, endIndex);
+                if (lastaddr != null && !lastaddr.equals(addr)) {
+                    int size = Integer.parseInt(mem.trim());
+                    if ("[00000000]".equals(oldaddr)) {
+                        total += size;
+                        hm.put(addr, size);
+                    } else {
+                        int oldSize = 0;
+                        if (hm.containsKey(oldaddr))
+                            oldSize = hm.remove(oldaddr);
+                        System.out.println(oldaddr+" "+ lineNo+" oldsize="+oldSize+" newsize="+size);
+                        hm.put(addr, size);
+                        total += (size - oldSize);
+                    }
+
+                }
+                lastaddr = addr;
+            }
+            br.close();
+            System.out.println("total ===="+total);
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    static class CountObj implements Comparable<CountObj>{
+        int count;
+        String name;
+        String stack;
+
+        public CountObj(int count, String name) {
+            this.count = count;
+            this.name = name;
+        }
+
+        @Override
+        public int compareTo(CountObj o) {
+            return o.count - count;
+        }
+
+        public String toString() {
+            return name + ":" + count + ":" + stack + ";";
+        }
     }
 }

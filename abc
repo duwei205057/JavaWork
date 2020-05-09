@@ -1,0 +1,558 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <boolean name="multimedia_alert_type" value="true" />
+    <boolean name="pref_pc_theme_cand_vertical_tile" value="false" />
+    <long name="last_update_alive_time" value="1561734418318" />
+    <long name="lastest_update_net_notifi" value="1579230681631" />
+    <string name="entrance_theme_hint_data"></string>
+    <int name="gamekeyboad_x_drawposition" value="320" />
+    <boolean name="is_download_hotdict" value="false" />
+    <long name="last_time_of_excute_for_one_hour" value="1579165588749" />
+    <boolean name="code_view_has_scrolled" value="true" />
+    <string name="old_account_user_id">15228014503@sohu.com</string>
+    <boolean name="pref_privilege_dict_task_ready" value="false" />
+    <long name="last_active_sogou_upd_time" value="1579230738095" />
+    <boolean name="pref_is_has_new_tip_in_platform" value="true" />
+    <boolean name="phone_correct_enable" value="true" />
+    <int name="MTA_EVENT_INDEX" value="3" />
+    <long name="last_pull_notification_app_time" value="1579230679597" />
+    <boolean name="answer_artifact_request_key" value="false" />
+    <boolean name="auto_upgrade_software" value="true" />
+    <string name="cands_op_blacklist"></string>
+    <string name="upgrade_last_delete_json_id"></string>
+    <boolean name="openplatform_is_show_loan_money" value="true" />
+    <boolean name="auto_active_sogoumall" value="true" />
+    <boolean name="count_data_dir_enable" value="false" />
+    <string name="keyboard_type_landscape_raw">2</string>
+    <boolean name="internal_expression_need_unzip" value="true" />
+    <boolean name="qq_expression_icon_loading" value="false" />
+    <long name="qq_recommend_time_stamp" value="1558170244762" />
+    <boolean name="auto_lock_capital" value="true" />
+    <string name="com.sogou.passportsdk.util.PreferencesUtil.PASSPORT_USERINFO">{&quot;tiny_avatar&quot;:&quot;&quot;,&quot;uniqname&quot;:&quot;15228014503&quot;,&quot;gender&quot;:&quot;0&quot;,&quot;avatarurl&quot;:&quot;&quot;,&quot;mobile&quot;:&quot;15228014503&quot;,&quot;type&quot;:&quot;PHONE&quot;,&quot;userid&quot;:&quot;15228014503@sohu.com&quot;,&quot;accountId&quot;:&quot;lbzw087dg3c&quot;,&quot;large_avatar&quot;:&quot;&quot;,&quot;sgunionid&quot;:&quot;f5e8af3e679b49b1ad34d32c6074873c&quot;,&quot;sgid&quot;:&quot;09-40694987-AVzfHtVhVGia5q1ZNuIyYoA0&quot;,&quot;sec_mobile&quot;:&quot;152xxxxx503&quot;,&quot;mid_avatar&quot;:&quot;&quot;}</string>
+    <string name="theme_net_search_keyword">Live皮肤;盲打键盘;简约;护眼;少女;明星;动效;游戏;动漫;音效;机械;卡通</string>
+    <int name="flx_advertisement_whitelist_version" value="1421" />
+    <boolean name="update_alive_input_status" value="false" />
+    <string name="search_candidate_word">千与千寻;放暑假啦;给点零花钱好不好;波妞和宗介;性格懒特长吃;陪我聊天可以吗;punchline;渣男语录;在线渣女;给你小零食哦</string>
+    <long name="lastest_platform_phantom_recommend_app_request_time" value="1579230753458" />
+    <string name="pref_plugin_doutu_config_version">all_3.0.1_all_eba2b1ad9e671be2186e6713092103b7bfabe26965e8a804e2843de6e7d681f7b673279da5e1043c39d5dedfc9a02c97</string>
+    <int name="expression_emoji_recent_num" value="24" />
+    <long name="emoji_update_res_name" value="1525404658000" />
+    <boolean name="open_platform_recommend_new_flag" value="true" />
+    <string name="lastest_platform_phantom_recommend_app_time_stamp">1486483037498</string>
+    <string name="account_sg_id">09-40694987-AVzfHtVhVGia5q1ZNuIyYoA0</string>
+    <boolean name="pref_send_smart_search_pingback" value="true" />
+    <long name="last_time_of_excute_for_six_hour" value="1579154400087" />
+    <string name="entrance_expression_hint_date">1522406614000</string>
+    <boolean name="mini_doutu_direct_start" value="false" />
+    <boolean name="pref_statusbar_browser_tip" value="true" />
+    <boolean name="en_prediction" value="false" />
+    <string name="entrance_expression_reco_data">0</string>
+    <boolean name="need_to_copy_themes" value="true" />
+    <string name="pref_auto_active_data_version">101</string>
+    <string name="expression_virtual_reco_date">1564566033515</string>
+    <long name="pref_current_privilege_dict_upload_count" value="2048" />
+    <boolean name="expression_need_reload" value="false" />
+    <string name="expression_symbol_hot_info_date">1579067380</string>
+    <int name="pref_doutu_select_tab_id" value="2130838028" />
+    <int name="cands_op_touch_count" value="0" />
+    <string name="cooperation_current_channel_id"></string>
+    <boolean name="show_slide_keyboard_move_cursor_used" value="true" />
+    <boolean name="upload_data_file_enable" value="true" />
+    <boolean name="wakeup_sohu_video_client_today" value="false" />
+    <string name="update_net_switch_frequency">1</string>
+    <boolean name="native_crash_collect_enable" value="true" />
+    <boolean name="skin_foreground_enable" value="true" />
+    <long name="last_send_app_info_time" value="1579230681378" />
+    <boolean name="is_show_platform_banner" value="false" />
+    <boolean name="pref_kbd_setting_change" value="false" />
+    <long name="last_send_error_log_time" value="1579230679015" />
+    <long name="entrance_app_reco_date" value="1558126306925" />
+    <int name="need_shift_tips_count" value="1" />
+    <string name="keyboard_type_portrait_chinese">1</string>
+    <boolean name="multimedia_input_allow_gprs" value="false" />
+    <boolean name="cn_prediction" value="true" />
+    <long name="lastest_hotword_timestamp" value="1558339757" />
+    <long name="inputmethod_use_time" value="0" />
+    <long name="pref_privilege_dict_system_time" value="1558841278560" />
+    <boolean name="mini_voice_direct_start" value="false" />
+    <boolean name="update_alive_status" value="false" />
+    <long name="send_last_core_log_time" value="1561271956570" />
+    <boolean name="keyboard_mode_per_ime" value="true" />
+    <string name="entrance_hotdict_reco_data">0</string>
+    <boolean name="upload_hw_data" value="true" />
+    <boolean name="copy_auto_translate_enable" value="true" />
+    <int name="pref_setting_data_hashcode" value="1590754768" />
+    <boolean name="emoji_update_load_update_res" value="true" />
+    <long name="last_upload_voice_log_time" value="1579133785276" />
+    <boolean name="expression_mtll_meihua_button_enable" value="true" />
+    <long name="lastest_upload_map_data_time" value="1561320134353" />
+    <string name="multimedia_auto_download_limit">500</string>
+    <long name="last_update_flx_whitelist_success_time" value="1558003338263" />
+    <int name="expression_symbol_recent_num" value="1" />
+    <long name="traffic_monitor_last_statistic_time" value="1579230757791" />
+    <boolean name="auto_get_phantom_recommend_app" value="true" />
+    <boolean name="slide_move_cursor_enable" value="true" />
+    <boolean name="anr_collect_enable" value="true" />
+    <boolean name="pref_first_show_voice_keyboard_tip" value="true" />
+    <long name="pref_expression_entrance_time" value="1561395170728" />
+    <boolean name="is_first_use" value="false" />
+    <boolean name="expression_qq_recommend_tab_enable" value="true" />
+    <long name="info_last_extdict_sync_send_time" value="1561531228619" />
+    <boolean name="pref_setting_changed" value="false" />
+    <boolean name="double_input" value="false" />
+    <boolean name="defake_enable" value="true" />
+    <long name="1.6.2_begin_protection" value="1558126340908" />
+    <int name="fanlingxi_resource_extract_state" value="0" />
+    <string name="auto_software_upgrade_frequency">7</string>
+    <boolean name="map_location_data_enable" value="true" />
+    <boolean name="pref_first_time_showinputview" value="false" />
+    <boolean name="wubi_show_code_enabled" value="true" />
+    <int name="smart_search_bg_color" value="-15836254" />
+    <boolean name="slide_input" value="false" />
+    <string name="netnotifi_on_notification"></string>
+    <int name="last_save_mode" value="0" />
+    <long name="traffic_monitor_last_total_receive" value="7684341" />
+    <boolean name="expression_qutu_mtll_enable" value="true" />
+    <boolean name="space_commit_association" value="false" />
+    <boolean name="hw_show_tip_free_enable" value="false" />
+    <boolean name="cloudinput_state_3g" value="true" />
+    <string name="last_login_type">UNIONPHONE</string>
+    <string name="pref_theme_recommend_lastest_time">1504772046718</string>
+    <long name="last_check_no_use_qq_pcm_file_time" value="1579230758613" />
+    <boolean name="expression_show_popupwindo" value="false" />
+    <string name="show_popup_preview_set">1</string>
+    <string name="black_word_list_version">1559616239000</string>
+    <int name="theme_search_err_code" value="200" />
+    <long name="pref_first_use_new_version_time" value="1451606415938" />
+    <string name="gesture_color">0xFF000000</string>
+    <boolean name="is_first_time_copy_key" value="true" />
+    <boolean name="cands_op_pop_window_shown" value="true" />
+    <boolean name="pref_phone_correct_marker_enable" value="true" />
+    <boolean name="is_need_compatible_clipboard" value="false" />
+    <int name="translate_saved_mode" value="0" />
+    <boolean name="pref_allow_auto_check_city" value="false" />
+    <boolean name="en_association" value="true" />
+    <boolean name="qq_expression_need_reload" value="true" />
+    <int name="pref_voiceinput_intro_show_cnt" value="3" />
+    <boolean name="mini_voice_first_into" value="false" />
+    <boolean name="expression_symbol_show_hot_tab" value="true" />
+    <long name="pref_last_check_entrance_recommend" value="1579230759745" />
+    <string name="platform_get_phantom_recommend_app_info_exception_type">net_state%3Dtrue%2Cnet_type%3D1%2C</string>
+    <boolean name="cooperation_state_invited" value="false" />
+    <long name="pref_last_privilege_dict_upload_count" value="2048" />
+    <boolean name="lingxi_mode" value="true" />
+    <long name="last_period_ts" value="1560251461049" />
+    <boolean name="mcd_cooper_need_download" value="true" />
+    <string name="last_contact_imported_time">2019-07-24 05:26</string>
+    <string name="netnotifi_on_toolbar"></string>
+    <boolean name="pushmanager_enable_status" value="true" />
+    <boolean name="show_recommend_theme" value="false" />
+    <int name="__MTA_FIRST_ACTIVATE__" value="0" />
+    <int name="version_code" value="999" />
+    <int name="pref_plugin_doutu_request_times" value="0" />
+    <boolean name="pref_core_log_collect_enable" value="true" />
+    <long name="last_pull_wakeup_notification_time" value="1579230682553" />
+    <long name="pref_current_privilege_dict_upload_pseudo_timestamp" value="2961" />
+    <string name="netnotify_user_action_mark">5</string>
+    <string name="lbs_netnotifi_xml_id">12031530</string>
+    <long name="theme_current_used_time" value="1558463255155" />
+    <int name="platform_get_phantom_recommend_app_info_err_code" value="0" />
+    <long name="mycenter_time_of_sync_dict_last" value="1558448824332" />
+    <long name="pref_doutu_recommendation_last_time" value="1561568811919" />
+    <int name="pref_vibrate_value_keyboard_feedback" value="1" />
+    <boolean name="user_experience_improvement" value="true" />
+    <int name="expression_pic_recent_num" value="1" />
+    <boolean name="pref_doutu_new_icon_click_time" value="true" />
+    <string name="last_contacts_info_md5">883c41876f277066ba808801d0a4dd35</string>
+    <boolean name="show_expression_download_tip" value="false" />
+    <boolean name="pushmanager_enable_explore_control_upush" value="true" />
+    <boolean name="pref_qwerty_correct_marker_enable" value="true" />
+    <boolean name="wakeup_sohu_news_client_pro" value="true" />
+    <boolean name="float_mode_on" value="false" />
+    <boolean name="cloudinput_state_wifi" value="true" />
+    <string name="theme_search_keywords_date">1553763276592</string>
+    <boolean name="expression_symbol_list_update_when_start" value="true" />
+    <boolean name="cands_op_show_animation" value="false" />
+    <int name="talkback_status" value="0" />
+    <string name="netnotifi_on_closekb"></string>
+    <string name="skinpacker_version">1</string>
+    <int name="account_login_type" value="9" />
+    <boolean name="pref_emoji_repeat_anim_enable" value="false" />
+    <boolean name="shortlink_enable" value="false" />
+    <long name="cands_op_request_time" value="1579230679327" />
+    <int name="last_contact_imported_num" value="6" />
+    <string name="keyboard_type_portrait">1</string>
+    <boolean name="pref_pc_auto_sync_dict" value="true" />
+    <boolean name="cloudinput_state_any" value="false" />
+    <string name="mcd_cooper_newest_netswitch">30</string>
+    <long name="mcd_cooper_recent_timer_time" value="0" />
+    <int name="search_candidate_word_etag" value="76713377" />
+    <string name="first_install_fr">android_oem_gionee_tx</string>
+    <int name="expression_qq_guide_show_times" value="3" />
+    <int name="pref_ime_switch_setting" value="39" />
+    <boolean name="first_send_voice_in_qq" value="false" />
+    <int name="pref_doutu_collect_select_tab_id" value="2131821533" />
+    <boolean name="pref_pc_upload_data_status" value="false" />
+    <boolean name="voice_switch_direct_start" value="false" />
+    <string name="entrance_theme_reco_date">1548669389000</string>
+    <string name="last_network_type">WIFI</string>
+    <string name="pref_hw_stroke_effect_set_new">3</string>
+    <int name="cloud_symbol_assoc_level" value="0" />
+    <long name="pref_last_privilege_dict_upload_pseudo_timestamp" value="2961" />
+    <string name="keyboard_type_portrait_raw">2</string>
+    <string name="hw_language_model_version">1004</string>
+    <long name="last_try_upload_data_file_time" value="1579230682578" />
+    <boolean name="pref_cht" value="false" />
+    <string name="used_sqlcipher_so_version">1.0</string>
+    <long name="pref_collect_view_entrance_time" value="1560338370176" />
+    <string name="next_contact_imported_time">2019-07-27 05:26</string>
+    <int name="skb_cn_ime_type" value="2" />
+    <boolean name="pref_wallpaper_theme_enable" value="false" />
+    <boolean name="pref_show_voice_notify_tip_voice_pressed" value="true" />
+    <boolean name="pref_allow_privacy_force" value="true" />
+    <int name="en_qwerty_digit_mode_minwidth" value="1080" />
+    <boolean name="Pref_is_need_cell_assets" value="true" />
+    <long name="last_active_sogoumall_time" value="1553330265392" />
+    <string name="special_config_content">{&quot;status&quot;:0,&quot;msg&quot;:&quot;succ&quot;,&quot;data&quot;:{&quot;date&quot;:1549002358000,&quot;type&quot;:1,&quot;start&quot;:20190203,&quot;end&quot;:20190210,&quot;bg_url&quot;:&quot;http:\/\/img.shouji.sogou.com\/wapdl\/hole\/201901\/30\/2019013016550844846846.png&quot;}}</string>
+    <long name="lastest_auto_check_software" value="1553330266477" />
+    <long name="latest_time_sending_update_alive_requests" value="1553330290502" />
+    <string name="theme_search_exception_type">net_state%3Dtrue%2Cnet_type%3D0%2C</string>
+    <long name="request_location_times" value="0" />
+    <boolean name="is_show_clipboard_explode_guide" value="true" />
+    <string name="latest_platform_app_upgrade">1536325933827</string>
+    <boolean name="pref_is_show_expression_tips" value="false" />
+    <long name="traffic_monitor_last_total_send" value="389920" />
+    <string name="App Restrictions">AAAAAA==
+    </string>
+    <boolean name="en_qwerty_digit_mode" value="false" />
+    <boolean name="need_force_extract_speex" value="true" />
+    <boolean name="pref_pc_theme_keyboard_vertical_tile" value="false" />
+    <long name="answer_artifact_request_id" value="25" />
+    <string name="expression_has_new_package_date">1488941880957</string>
+    <int name="root_bg_flag" value="0" />
+    <string name="used_sqlcipher_so_md5">1ace69a57508932273e59ccb644f6964</string>
+    <long name="pref_last_privilege_dict_request_system_timestamp" value="1579230646915" />
+    <string name="lbs_netnotifi_on_notification">lbsdict</string>
+    <int name="saved_ime_type" value="2" />
+    <string name="cell_installed"></string>
+    <string name="current_mobileqq_login_openid">invalid</string>
+    <int name="current_notification_app_idx" value="0" />
+    <boolean name="author_reward_enable" value="true" />
+    <string name="per_ime_portrait">0122101112</string>
+    <long name="defake_last_time" value="1579230754983" />
+    <string name="keyboard_type_landscape">2</string>
+    <boolean name="has_clear_data_dir" value="false" />
+    <string name="build_id">Build_59ebbce_20190621</string>
+    <boolean name="pref_is_has_recommend_theme" value="true" />
+    <int name="new_version_alive_input" value="999" />
+    <boolean name="flx_direct_search_for_empty" value="false" />
+    <boolean name="pref_auto_suggest" value="false" />
+    <boolean name="show_theme_download_tip" value="false" />
+    <boolean name="user_had_set_browser_notify" value="false" />
+    <string name="account_user_id">15228014503@sohu.com</string>
+    <boolean name="skin_animation_enable" value="true" />
+    <int name="gamekeyboad_y_center" value="-233" />
+    <int name="sogou_launcher_enable" value="1" />
+    <long name="last_update_alive_app_time" value="1558463158613" />
+    <boolean name="need_force_extract_theme" value="false" />
+    <boolean name="keyboard_handwrite_guide" value="false" />
+    <long name="gesture_release_time" value="500" />
+    <long name="last_request_contact_time" value="1561139165742" />
+    <long name="pref_pc_sync_dict_last_time" value="1578783985599" />
+    <boolean name="emoji_update_download_status" value="true" />
+    <boolean name="pref_webserver_active_switcher" value="true" />
+    <int name="last_bottom_publish_time" value="1558463157" />
+    <boolean name="gesture_enabled" value="false" />
+    <boolean name="notification_app_net_switch" value="true" />
+    <string name="pre_niche_app_black_list_version">20190423193702</string>
+    <int name="pref_sound_value_keyboard_feedback" value="0" />
+    <int name="expression_pic_hot_download_retry_time" value="0" />
+    <long name="last_update_flx_whitelist_time" value="1558089739510" />
+    <string name="_mta_ky_tag_">/GsVsyISlUE62xSEn+0Cs3aSIJN27GyoXA==
+    </string>
+    <int name="pref_keyupdate_request_period" value="3" />
+    <boolean name="pref_is_show_photograph_switch_tip" value="false" />
+    <long name="latest dict upgrade" value="1561696398168" />
+    <string name="pre_wallet_tag_status">{&quot;借钱2click_times&quot;:&quot;1558454400:0&quot;}</string>
+    <string name="update_publickey_old_flag">0</string>
+    <string name="ime_info_B">PLACEHOLDER;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;14434;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0.0;0.0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0.0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0</string>
+    <int name="mycenter_sync_dict_total_cnt_history" value="312" />
+    <boolean name="wubi_hybird_input_enabled" value="true" />
+    <string name="keyboard_type_landscape_chinese">1</string>
+    <string name="expression_pic_hot_info_date">1575615868</string>
+    <boolean name="ime_float_mode_guide_shown" value="true" />
+    <long name="pref_symbol_entrance_time" value="1561395171751" />
+    <string name="kb_resize_init_landscape">0;0;0;0;0;360;85;85;-3;372</string>
+    <boolean name="pref_need_remark_rarely_chinese" value="false" />
+    <boolean name="pref_is_auto_active_today" value="true" />
+    <boolean name="pref_loading_privacy_safe_mode" value="true" />
+    <int name="gamekeyboad_x_center" value="640" />
+    <boolean name="dian_hua" value="true" />
+    <string name="current_theme_name">10w2018050318201093803000_rpdP</string>
+    <string name="keyboard_toolbar_cands_op_id">1193</string>
+    <string name="last_update_netnotifi_time">1553330266652</string>
+    <long name="update_keyword_op_data_time" value="1561734417763" />
+    <int name="video_mobile_network_warning_times" value="0" />
+    <string name="mcd_cooper_lastest_netswitch">13</string>
+    <boolean name="show_popup_preview" value="true" />
+    <long name="voice_redspot_tip_first_show_time" value="1553336740078" />
+    <boolean name="voice_offline_file_downloaded" value="false" />
+    <boolean name="theme_cand_op_enable" value="true" />
+    <boolean name="wakeup_sohu_news_client_today" value="false" />
+    <boolean name="pref_test_mobile_net_ping_enabled" value="false" />
+    <string name="auto_upgrade_frequency">7</string>
+    <long name="pre_get_recommend_theme_time" value="1553330274610" />
+    <boolean name="mutual_switch" value="true" />
+    <boolean name="symbol_common_use_for_nine_keys" value="true" />
+    <boolean name="show_entrance_recommend_new_tip" value="true" />
+    <string name="cloud_download_extra_dict_word_version">1561012494</string>
+    <string name="pre_voice_switch_input_version"></string>
+    <boolean name="pref_explore_sdk_is_inited" value="false" />
+    <string name="hw_port_recognize_mode_new">5</string>
+    <string name="last_update_entrance_recommend">1560830183000</string>
+    <long name="pref_last_show_voice_tip_time" value="1561139245272" />
+    <int name="qq_recommend_click_times" value="1" />
+    <boolean name="pref_pc_theme_cand_horizontal_tile" value="false" />
+    <string name="com.sogou.passportsdk.util.PreferencesUtil.PASSPORT_SGID">09-40694987-AVzfHtVhVGia5q1ZNuIyYoA0</string>
+    <int name="game_last_ime_mode" value="-1" />
+    <long name="lastest_auto_check_other" value="1579230681751" />
+    <boolean name="mini_voice_first_start" value="false" />
+    <boolean name="mcd_cooper_at_least_one_valid" value="false" />
+    <long name="answer_artifact_request_last_time" value="1558369326058" />
+    <long name="pref_last_doactive_time" value="1579165588749" />
+    <string name="entrance_app_reco_data">11</string>
+    <string name="last_upgrade_software_time">2019-06-22</string>
+    <boolean name="uninstall_supervisor_enable" value="true" />
+    <long name="last_request_location_time" value="0" />
+    <boolean name="translate_switch" value="false" />
+    <int name="qq_expression_pop_show_times" value="3" />
+    <long name="pref_last_privilege_dict_upload_system_timestamp" value="1558841278560" />
+    <string name="expression_symbol_info_date">1573539348</string>
+    <string name="last_upgrade_dict_time">1561617666000</string>
+    <string name="entrance_mine_reco_data">0</string>
+    <string name="pref_symbol_select_tab_id">recent</string>
+    <string name="redspot_click_info">122</string>
+    <int name="network_time" value="1" />
+    <boolean name="pref_smscode_to_canidate" value="false" />
+    <long name="info_lastest_update_sogou_wallpaper_time" value="1553330275600" />
+    <long name="traffic_monitor_mobile_network_receive" value="0" />
+    <boolean name="show_trick_pic_guide" value="false" />
+    <long name="answer_artifact_request_period" value="86400000" />
+    <string name="lbs_last_update_netnotifi_time">1579230755</string>
+    <boolean name="direct_send_voice_qq_installed" value="true" />
+    <boolean name="expression_pic_show_hot_tab" value="true" />
+    <long name="last_update_alive_input_time" value="1561525273793" />
+    <string name="expression_view_show_specific_expression">virtualreco</string>
+    <int name="cloud_level_one_assoc_level" value="1" />
+    <string name="new_cloudinput_state_set">3</string>
+    <boolean name="expression_need_resort" value="false" />
+    <boolean name="pref_test_data_enabled" value="true" />
+    <int name="ime_func_view_bg_color" value="-15769174" />
+    <int name="gamekeyboad_height_current" value="466" />
+    <string name="per_ime_landscape">0122102222</string>
+    <boolean name="pref_core_miji_enabled" value="false" />
+    <string name="expression_package_ad_info">1579230203665</string>
+    <long name="last_cycle_request_location_time" value="0" />
+    <int name="new_langauge_guide_status" value="4" />
+    <string name="pref_cur_kb_resize_info_landscape">0;0;0;0;0;360;85;85;-3;372</string>
+    <long name="lastest_mcd_cooper_request_time" value="1579230739083" />
+    <boolean name="pref_software_statistic_enabled" value="true" />
+    <string name="ime_info_A">A0000068692CB4;8.35.9;23;android_preview_edition;720x1280;GN5005L;2;1;false;10w2018050318201093803000_rpdP;搜狗输入法|Android 键盘 (AOSP);;true;false;false;false;true;false;true;4;true;true;1;true;1;2;true;false;true;true;false;false;true;;1561617666000;false;false;500;true;false;0;false;;false;29932120;false;0xFF000000;false;true;0;0;0;0.0;91603;false;true;0;100;100;false;true;false;1179864;2930908;4973654016;10308214784;false;true;true;true;;3;9;false;false;false;0;true;5;0;-1;false;3;1;0;false;false;0;false;2;false;true;true;5;5;false;true;0;true;true;true;1;1;1;1;1;24;1;1;0;269854;0;0;2020-01-17 11:12:37;0;0;1;0;true;false;false;6;0;Build_59ebbce_20190621;0;1001005523;0;0;1;0;1;1;0;1;1;1;0;1;-1;zh;0;0;5;-16777216;1;0;1;0;1;0;1;1;0;1;1;0;0;0;0;0;1;0;4;4;1300000;[arm64-v8a,armeabi-v7a,armeabi];131072;AArch64_Processor_rev_3_(aarch64);0;0;0;0;-2;-2</string>
+    <string name="theme_source_path">/storage/emulated/0/sogou/sga/10w2018050318201093803000_rpdP.ssf</string>
+    <boolean name="pref_doutu_collevt_tip_click_time" value="true" />
+    <int name="resource_resolution" value="720" />
+    <long name="last_time_of_excute_for_one_week" value="1578783600023" />
+    <string name="latest dict upgrade GMT time">28 Jun 2019 04:33:18 GMT</string>
+    <boolean name="multimedia_input_allow_wifi" value="true" />
+    <long name="splashscreen_video_update_time" value="1579230684887" />
+    <string name="wallpaper_theme_video"></string>
+    <int name="expression_pic_hot_local_download_time" value="87" />
+    <string name="entrance_theme_reco_data">0</string>
+    <boolean name="allow_input_active" value="true" />
+    <boolean name="context_aware_adjust" value="true" />
+    <string name="last_date_theme_main">1558429414477</string>
+    <string name="pref_clipboard_blacklist">{&quot;id&quot;:&quot;6&quot;,&quot;list&quot;:[[&quot;复制这条信息&quot;,&quot;打开&quot;,&quot;手淘&quot;],[&quot;淘宝特价版&quot;],[&quot;领支付宝红包&quot;],[&quot;打开最新版支付宝就能领取&quot;],[&quot;打开&quot;,&quot;天猫APP&quot;,&quot;喵口令&quot;],[&quot;吱口令&quot;,&quot;复制此条信息&quot;,&quot;打开支付宝&quot;],[&quot;支付宝发红包&quot;,&quot;打开支付宝领红包&quot;],[&quot;$&quot;],[&quot;＄&quot;]]}</string>
+    <boolean name="direct_send_voice_in_qq" value="false" />
+    <string name="pref_cur_kb_resize_info_portrait">0;0;0;0;0;0;0;0;0;466</string>
+    <long name="upgrade_last_show_upgrade_notification_time" value="1579230681722" />
+    <boolean name="need_force_extract_dict" value="false" />
+    <string name="shortcutphrases_recommend_date">1523282162000</string>
+    <long name="latest_time_sending_internet_requests_wifi" value="1559918886666" />
+    <boolean name="flx_direct_search" value="false" />
+    <string name="accessibility_service_infos">{&quot;app&quot;:[{&quot;AppId&quot;:&quot;6&quot;,&quot;PackName&quot;:&quot;com.taou.maimai&quot;,&quot;AppHeadId&quot;:&quot;com.taou.maimai:id/message_box_avatar&quot;,&quot;AppTextId&quot;:&quot;com.taou.maimai:id/message_box_content&quot;,&quot;UserTitle&quot;:&quot;com.taou.maimai:id/menu_bar_title&quot;},{&quot;AppId&quot;:&quot;5&quot;,&quot;PackName&quot;:&quot;com.eg.android.AlipayGphone&quot;,&quot;AppHeadId&quot;:&quot;com.alipay.mobile.chatapp:id/chat_msg_avatar_cover&quot;,&quot;AppTextId&quot;:&quot;com.alipay.mobile.chatapp:id/chat_msg_text&quot;,&quot;UserTitle&quot;:&quot;com.alipay.mobile.ui:id/title_bar_title&quot;},{&quot;AppId&quot;:&quot;1&quot;,&quot;PackName&quot;:&quot;com.tencent.tim&quot;,&quot;AppHeadId&quot;:&quot;com.tencent.tim:id/chat_item_head_icon&quot;,&quot;AppTextId&quot;:&quot;com.tencent.tim:id/chat_item_content_layout&quot;,&quot;UserTitle&quot;:&quot;com.tencent.tim:id/title&quot;},{&quot;AppId&quot;:&quot;0&quot;,&quot;PackName&quot;:&quot;com.tencent.mobileqq&quot;,&quot;AppHeadId&quot;:&quot;com.tencent.mobileqq:id/chat_item_head_icon&quot;,&quot;AppTextId&quot;:&quot;com.tencent.mobileqq:id/chat_item_content_layout&quot;,&quot;UserTitle&quot;:&quot;com.tencent.mobileqq:id/title&quot;},{&quot;AppId&quot;:&quot;10&quot;,&quot;PackName&quot;:&quot;com.zhihu.android&quot;,&quot;AppHeadId&quot;:&quot;com.zhihu.android:id/avatar&quot;,&quot;AppTextId&quot;:&quot;com.zhihu.android:id/text&quot;},{&quot;AppId&quot;:&quot;11&quot;,&quot;PackName&quot;:&quot;com.tencent.wework&quot;,&quot;AppHeadId&quot;:&quot;com.tencent.wework:id/ce9&quot;,&quot;AppTextId&quot;:&quot;com.tencent.wework:id/cnn&quot;,&quot;UserTitle&quot;: &quot;com.tencent.wework:id/e32&quot;},{&quot;AppId&quot;:&quot;12&quot;,&quot;PackName&quot;:&quot;com.alibaba.android.rimet&quot;,&quot;AppHeadId&quot;:&quot;com.alibaba.android.rimet:id/chattting_avatar&quot;,&quot;AppTextId&quot;:&quot;com.alibaba.android.rimet:id/chatting_content_tv&quot;,&quot;UserTitle&quot;: &quot;com.alibaba.android.rimet:id/tv_title&quot;}],&quot;state&quot;: [{&quot;PackName&quot;: &quot;com.tencent.mm&quot;, &quot;Windowtitle&quot;: &quot;发送以下图片&quot;, &quot;SendText&quot;: &quot;确定&quot;}]}</string>
+    <boolean name="pref_mobile_tools_sdk_is_delayed" value="false" />
+    <boolean name="qq_recommend_tip_show" value="false" />
+    <boolean name="has_copy_old_version_lbsdict" value="true" />
+    <string name="current_used_theme">10w2018050318201093803000_rpdP</string>
+    <long name="pref_doutu_entrance_time" value="1561395171750" />
+    <long name="emoji_update_date" value="1525404658000" />
+    <boolean name="emoji_update_user_have_see" value="true" />
+    <string name="download_hotdict_time">1561696398186</string>
+    <string name="update_publickey_new_flag">0</string>
+    <boolean name="qwerty_correct_enable" value="true" />
+    <boolean name="auto_space" value="false" />
+    <string name="current_used_theme_id">1001005523</string>
+    <boolean name="slide_move_candidates_enable" value="true" />
+    <boolean name="auto_upgrade_other" value="true" />
+    <long name="lastest_timestamp" value="1558463157" />
+    <int name="theme_download_times" value="2" />
+    <string name="pref_os_version_name">gionee.ro.build.display.id##amigo3.5.5</string>
+    <string name="ocr_content_info"></string>
+    <boolean name="hand_writing_parameter_changed" value="false" />
+    <boolean name="lingxi_zhida_mode" value="true" />
+    <boolean name="update_alive_app_status" value="false" />
+    <string name="network_client_type">OkHttpClients</string>
+    <int name="ss_switch_state" value="1" />
+    <boolean name="hide_lingxi_zhida_mode" value="false" />
+    <long name="pref_last_check_lbs_time" value="1579230754984" />
+    <string name="keyboard_type_portrait_english">2</string>
+    <int name="gamekeboard_type" value="1" />
+    <int name="en_ime_type" value="1" />
+    <long name="traffic_monitor_wifi_receive" value="0" />
+    <string name="pref_doutu_recommendation_etag64350">1694163543</string>
+    <boolean name="auto_upgrade_dict" value="true" />
+    <boolean name="entrance_app_tip_can_show" value="true" />
+    <boolean name="warning_next_time_data_connection" value="false" />
+    <boolean name="pref_smart_correct_setting" value="true" />
+    <boolean name="wakeup_sohu_video_client_pro" value="true" />
+    <int name="mycenter_sync_dict_local_cnt_last" value="312" />
+    <boolean name="cands_op_net_switch" value="true" />
+    <long name="1.6.2_end__protection" value="1558126341182" />
+    <boolean name="longlink_enable" value="false" />
+    <string name="zxing">{&quot;newest&quot;:{&quot;name&quot;:&quot;zxing&quot;,&quot;md5&quot;:&quot;cb9d8f55f941fe01ac8eb3a4326b45d5&quot;,&quot;code&quot;:1,&quot;url&quot;:&quot;http:\/\/wap.dl.pinyin.sogou.com\/wapdl\/hole\/201808\/21\/zxing.dex&quot;}}</string>
+    <boolean name="qwerty_autosuggest_en" value="false" />
+    <string name="flx_wide_white_dict_update_time">2019061810162148169400</string>
+    <boolean name="accessibility_service_select" value="false" />
+    <string name="crash_collect_version">405470</string>
+    <boolean name="cloud_upload_user_data" value="true" />
+    <boolean name="show_shortcut_phrases_sync_dialog" value="true" />
+    <long name="last_send_handwriting_data_time" value="1579230679015" />
+    <boolean name="apk_market_enable" value="true" />
+    <boolean name="video_theme_enable" value="false" />
+    <boolean name="user_dimproduct_pk" value="true" />
+    <string name="open_platform_check_new_apps_exception_type">net_state%3Dtrue%2Cnet_type%3D1%2C</string>
+    <int name="lbs_netnotify_request_period" value="24" />
+    <boolean name="translate_first_shown" value="false" />
+    <int name="hw_stroke_width" value="5" />
+    <boolean name="pref_is_show_english_switch_tip" value="false" />
+    <int name="patch_install_status" value="0" />
+    <long name="info_lastest_dict_upgrade_send_time" value="1579133785272" />
+    <int name="pref_doutu_recommendation_etag0" value="899026141" />
+    <long name="upgrade_last_show_closekb_1_dialog_time" value="1561138493582" />
+    <string name="expression_repo_pop_date">1499249229580</string>
+    <boolean name="smart_search_first_show" value="true" />
+    <string name="keyboard_type_landscape_english">2</string>
+    <boolean name="qwerty_autosuggest_py" value="false" />
+    <long name="active_sogou_upd" value="14400000" />
+    <int name="gamekeyboad_mode_current" value="1" />
+    <string name="experiment_net_switch_mode">2___</string>
+    <boolean name="pref_expression_emoji_enable" value="true" />
+    <int name="gamekeyboad_y_drawposition" value="-466" />
+    <long name="traffic_monitor_mobile_network_send" value="0" />
+    <int name="en_qwerty_digit_mode_minHeight" value="1920" />
+    <int name="cn_ime_type" value="2" />
+    <boolean name="is_first_in_setting" value="false" />
+    <string name="pref_copytranslate_blacklist">{&quot;id&quot;:&quot;2&quot;,&quot;list&quot;:[&quot;com.taobao.taobao&quot;,&quot;com.tmall.wireless&quot;,&quot;com.eg.android.AlipayGphone&quot;,&quot;com.baidu.BaiduMap&quot;]}</string>
+    <boolean name="push_controll_status" value="true" />
+    <int name="ime_float_mode_land_location_y" value="146" />
+    <long name="traffic_monitor_wifi_send" value="0" />
+    <string name="open_platform_user_data">openplatform_qrcode</string>
+    <boolean name="pref_pc_theme_keyboard_horizontal_tile" value="false" />
+    <long name="info_last_hotdict_sync_send_time" value="1561531228619" />
+    <int name="hkb_cn_ime_type" value="2" />
+    <string name="entrance_hotdict_reco_date">1548669384000</string>
+    <boolean name="dict_contacts_autosync_new" value="true" />
+    <boolean name="pref_show_expression_tips_on_function" value="false" />
+    <int name="ime_float_mode_land_location_x" value="362" />
+    <int name="word_text_size" value="4" />
+    <int name="clipboard_item_nums" value="6" />
+    <int name="send_java_crash_time" value="0" />
+    <boolean name="expression_has_new_package" value="false" />
+    <boolean name="gamekeboard_switch" value="true" />
+    <string name="pref_last_anr_file_time">2019-06-29 20:20:08</string>
+    <boolean name="emoji_update_status" value="false" />
+    <long name="lastest_game_list_request_time" value="1579230754006" />
+    <int name="hw_ime_type" value="5" />
+    <boolean name="rare_word" value="true" />
+    <boolean name="big_nine_ime_switch_tip_shown" value="true" />
+    <boolean name="qq_expression_show_latest" value="true" />
+    <boolean name="symbol_common_use" value="true" />
+    <long name="last_send_pingback_time" value="1579230682513" />
+    <boolean name="keyboardfeedback_volume_switch" value="true" />
+    <string name="entrance_theme_hint_date">1522406622000</string>
+    <string name="gpen_handwriter_version">15003</string>
+    <boolean name="fanlingxi_passive_tips_show" value="false" />
+    <long name="cycle_request_contacts_times" value="0" />
+    <long name="lastest_try_update_net_switch" value="1579230685119" />
+    <int name="expression_repo_pop_show_times" value="0" />
+    <long name="last_check_entrance_reommend" value="1553330275746" />
+    <string name="netnotifi_xml_id">11141112</string>
+    <string name="entrance_home_hint_data"></string>
+    <string name="hot_dict_server_time">1561617667000</string>
+    <int name="pref_doutu_recommendation_etag1" value="-479945223" />
+    <int name="ime_switch_setting_new_added" value="192" />
+    <string name="pref_skin_download_rank_info_date">1558420202000</string>
+    <string name="lastest_obtain_mcd_cooper_time">1524632994000</string>
+    <string name="hw_land_recognize_mode_new">5</string>
+    <int name="ime_float_mode_port_location_x" value="-1" />
+    <string name="first_use_time">16/01/01</string>
+    <string name="pref_key_offline_speech_switch">4</string>
+    <long name="sms_to_candiadte_time" value="0" />
+    <int name="open_platform_check_new_apps_err_code" value="200" />
+    <boolean name="pre_show_plantform_phantom_recommend_app_icon_in_function" value="false" />
+    <string name="entrance_expression_hint_data"></string>
+    <boolean name="warning_next_time_input_active" value="false" />
+    <long name="statistics_data_last_refresh_time" value="1579104060353" />
+    <int name="show_slide_keyboard_move_cursor_tip_num" value="0" />
+    <boolean name="current_is_time_skin" value="false" />
+    <long name="last_cycle_request_contacts_time" value="1561139165742" />
+    <boolean name="prevent_folding_input" value="false" />
+    <long name="update_emoji_time" value="1554314791320" />
+    <long name="last_time_of_excute_for_one_day" value="1579133785038" />
+    <int name="pref_record_app_enter_times_type" value="2" />
+    <boolean name="hw_mark_pinyin_enabled" value="false" />
+    <long name="last_start_alarm_time_to_check_status" value="1559571225706" />
+    <boolean name="expression_view_show_when_start" value="false" />
+    <int name="gamekeyboad_mode_pre" value="1" />
+    <boolean name="allow_data_connection" value="true" />
+    <int name="ime_float_mode_port_location_y" value="-1" />
+    <boolean name="pref_expression_pic_enable" value="true" />
+    <int name="pref_recommend_type" value="2" />
+    <int name="hot_cell_dict_update_time" value="1561612788" />
+    <boolean name="stop_mcd_cooper" value="false" />
+    <long name="last_time_of_excute_for_four_hour" value="1579161602434" />
+    <int name="expression_sogou_package_num" value="0" />
+    <boolean name="is_need_shift_tips" value="true" />
+    <string name="theme_backup_path">/data/user/0/com.sohu.inputmethod.sogou/files/package/10w2018050318201093803000_rpdP.ssf</string>
+    <string name="pref_plugin_doutu_version_name">3.0.1</string>
+    <int name="last_top_publish_time" value="1558463157" />
+    <string name="entrance_mine_reco_date">1560830183000</string>
+    <long name="newest_hotword_timestamp" value="1558339757" />
+    <long name="traffic_monitor_statistic_time_length" value="0" />
+    <string name="entrance_home_hint_date">1522406618000</string>
+    <long name="last_send_voice_offline_pingback_time" value="1579230679015" />
+    <long name="lastest_update_net_switch" value="1579230685119" />
+    <int name="popup_gap" value="1" />
+    <long name="last_icon_request_time" value="1561721366049" />
+    <int name="mycenter_sync_dict_total_cnt_last" value="60" />
+    <string name="lbs_netnotifi_on_toolbar"></string>
+    <long name="last_time_of_excute_for_half_day" value="1579136285777" />
+    <int name="pref_doutu_recommendation_etag" value="-1463228464" />
+    <boolean name="keyboardfeedback_vibration_switch" value="true" />
+    <boolean name="pref_clipboard_to_canidate" value="true" />
+    <int name="gamekeyboad_width_current" value="640" />
+    <long name="update_publickey_time" value="1553330287791" />
+    <boolean name="expression_tab_scroll_reset" value="true" />
+    <string name="shortcutphrases_inner_date">1523282165000</string>
+    <long name="latest_time_sending_internet_requests" value="1561734415992" />
+    <int name="keyboard_toolbar_cands_op_count_id" value="-1" />
+    <boolean name="en_qwerty_digit_mode_network_enable" value="true" />
+    <long name="sogou_input_init_time" value="1561139189065" />
+    <boolean name="pref_statusbar_new_hotdict_tip" value="true" />
+    <boolean name="had_pull_trick_pic" value="true" />
+    <boolean name="symbol_if_refresh_symbol_list" value="false" />
+    <string name="entrance_expression_reco_date">1548669393000</string>
+    <long name="last_leave_news_page_timestamp" value="1558463158790" />
+    <string name="traffic_monitor_start_time">2020-01-17 11:12:37</string>
+    <long name="pref_doutu_collect_exit_time" value="1560338372255" />
+</map>
