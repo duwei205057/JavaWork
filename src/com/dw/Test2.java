@@ -112,7 +112,8 @@ public class Test2 {
         List<String> result = new ArrayList(set);
         String[] tmp = new String[result.size()];
         System.out.println(result.toArray(tmp));
-        System.out.println(getString());
+        System.out.println("utf8 还原=" + getString());
+        toUtf8();
         analysisMemSize();
 
         /*try {
@@ -139,9 +140,8 @@ public class Test2 {
         System.out.println((2 % 10000) / 1000);
         Random mRandom = new Random(200);
         System.out.println(mRandom.nextInt(1));
-        takeLock.unlock();
+//        takeLock.unlock();
     }
-    static ReentrantLock takeLock = new ReentrantLock();
     private static void match(String input) {
 //        Pattern emoji1 = Pattern.compile("\\ud83c[\\udffb-\\udfff](?=\\ud83c[\\udffb-\\udfff])|" +
 //                "(?:" +
@@ -185,13 +185,47 @@ public class Test2 {
     }
 
     private static String getString() throws UnsupportedEncodingException {
-        String s = "\\xE6\\x82\\xA8\\xE5\\xB0\\x86\\xE6\\x94\\xB6\\xE5\\x88\\xB0\\xE5\\x9C\\xB0\\xE7\\x90\\x86\\xE4\\xBD\\x8D\\xE7\\xBD\\xAE\\xE6\\x9D\\x83\\xE9\\x99\\x90\\xE7\\x9A\\x84\\xE7\\xB3\\xBB\\xE7\\xBB\\x9F\\xE6\\x8F\\x90\\xE7\\xA4\\xBA\\xEF\\xBC\\x8C\\xE8\\xAF\\xB7\\xE6\\x94\\xBE\\xE5\\xBF\\x83\\xE9\\x80\\x89\\xE6\\x8B\\xA9\\xE5\\x85\\x81\\xE8\\xAE\\xB8\\xE3\\x80\\x82\\xE8\\xBE\\x93\\xE5\\x85\\xA5\\xE6\\xB3\\x95\\xE4\\xBC\\x9A\\xE4\\xB8\\xBA\\xE6\\x82\\xA8\\xE6\\x8F\\x90\\xE4\\xBE\\x9B\\xE6\\x89\\x80\\xE5\\x9C\\xA8\\xE5\\x9C\\xB0\\xE7\\x9A\\x84\\xE5\\xB8\\xB8\\xE7\\x94\\xA8\\xE8\\xAF\\x8D\\xE6\\xB1\\x87\\xE3\\x80\\x82";
+//        String s = "\\xE6\\x82\\xA8\\xE5\\xB0\\x86\\xE6\\x94\\xB6\\xE5\\x88\\xB0\\xE5\\x9C\\xB0\\xE7\\x90\\x86\\xE4\\xBD\\x8D\\xE7\\xBD\\xAE\\xE6\\x9D\\x83\\xE9\\x99\\x90\\xE7\\x9A\\x84\\xE7\\xB3\\xBB\\xE7\\xBB\\x9F\\xE6\\x8F\\x90\\xE7\\xA4\\xBA\\xEF\\xBC\\x8C\\xE8\\xAF\\xB7\\xE6\\x94\\xBE\\xE5\\xBF\\x83\\xE9\\x80\\x89\\xE6\\x8B\\xA9\\xE5\\x85\\x81\\xE8\\xAE\\xB8\\xE3\\x80\\x82\\xE8\\xBE\\x93\\xE5\\x85\\xA5\\xE6\\xB3\\x95\\xE4\\xBC\\x9A\\xE4\\xB8\\xBA\\xE6\\x82\\xA8\\xE6\\x8F\\x90\\xE4\\xBE\\x9B\\xE6\\x89\\x80\\xE5\\x9C\\xA8\\xE5\\x9C\\xB0\\xE7\\x9A\\x84\\xE5\\xB8\\xB8\\xE7\\x94\\xA8\\xE8\\xAF\\x8D\\xE6\\xB1\\x87\\xE3\\x80\\x82";
+        String s = "\\xE2\\x80\\x9C\\xE6\\x99\\xBA\\xE8\\x83\\xBD\\xE5\\x9B\\x9E\\xE5\\xA4\\x8D\\xE2\\x80\\x9D\\xE5\\x8A\\x9F\\xE8\\x83\\xBD\\xE9\\x9C\\x80\\xE8\\xA6\\x81\\xE5\\xBC\\x80\\xE5\\x90\\xAF\\xE6\\x97\\xA0\\xE9\\x9A\\x9C\\xE7\\xA2\\x8D\\xE6\\x9D\\x83\\xE9\\x99\\x90";
+//        String s = "\\xEF\\xBF\\xBD";
         String[] ss = s.split("\\\\x");
         byte[] b = new byte[ss.length - 1];
         for(int i = 0; i < b.length; i++) {
             b[i] = (byte) (Integer.parseInt(ss[i + 1], 16) & 0xff);
         }
+//        return new String(b, "iso-8859-1");
         return new String(b, "UTF-8");
+    }
+
+    private static void toUtf8() {
+        char textChar = 200;
+        String text = new String(new char[]{textChar});
+
+        try {
+            System.out.print(text.getBytes("UTF-8").length + "\t");
+            System.out.println(bytesToHexString(text.getBytes("UTF-8")));
+
+            System.out.print(text.getBytes("GBK").length + "\t");
+            System.out.println(bytesToHexString(text.getBytes("GBK")));
+
+            System.out.print(text.getBytes("GB2312").length + "\t");
+            System.out.println(bytesToHexString(text.getBytes("GB2312")));
+        } catch (UnsupportedEncodingException e) {
+            e.printStackTrace();
+        }
+
+    }
+
+    public static final String bytesToHexString(byte[] bArray) {
+        StringBuffer sb = new StringBuffer(bArray.length);
+        String sTemp;
+        for (int i = 0; i < bArray.length; i++) {
+            sTemp = Integer.toHexString(0xFF & bArray[i]);
+            if (sTemp.length() < 2)
+                sb.append(0);
+            sb.append(sTemp.toUpperCase());
+        }
+        return sb.toString();
     }
 
     private static void analysisMem() {
