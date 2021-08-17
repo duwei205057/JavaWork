@@ -1,4 +1,4 @@
-package com.dw;
+package com.dw.apm;
 
 
 import java.sql.*;
@@ -32,7 +32,7 @@ public class ApmAnalyse {
             if (test) {
                 sql = new String("select * from dumpinfo_20210718  where version = '10.29.8' limit 1");
             } else {
-                sql = new String("select * from dumpinfo_20210718  where version = '10.29.8'");
+                sql = new String("select id , stack from dumpinfo_20210727 where version = '10.29.23' and stackid = 5824");
             }
 
             String insertSql = "insert into apm_cost (methodId,name,cost,originId) values(?,?,?,?)";
@@ -62,7 +62,7 @@ public class ApmAnalyse {
                         costs[level - 1] = costs[level - 1] - cost;
                     }
                     while (level <= lastLevel) {
-                        System.out.println("id " + originId + " " + lastLevel + " " +names[lastLevel] + " cost " + costs[lastLevel]);
+                        //System.out.println("id " + originId + " " + lastLevel + " " +names[lastLevel] + " cost " + costs[lastLevel]);
                         if (costs[lastLevel] > 0) {
                             pr.setInt(1, methodIds[lastLevel]);
                             pr.setString(2, names[lastLevel]);
@@ -79,7 +79,7 @@ public class ApmAnalyse {
                     lastLevel = level;
                 }
                 while (0 <= lastLevel) {
-                    System.out.println("id " + originId + " " + lastLevel + " " +names[lastLevel] + " cost " + costs[lastLevel]);
+                    //System.out.println("id " + originId + " " + lastLevel + " " +names[lastLevel] + " cost " + costs[lastLevel]);
                     if (costs[lastLevel] > 0) {
                         pr.setInt(1, methodIds[lastLevel]);
                         pr.setString(2, names[lastLevel]);
@@ -89,7 +89,7 @@ public class ApmAnalyse {
                     }
                     lastLevel--;
                 }
-                System.out.println("------------------------------------------------------");
+                //System.out.println("------------------------------------------------------");
             }
 
         } catch (ClassNotFoundException | SQLException e) {
