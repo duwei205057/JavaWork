@@ -32,7 +32,7 @@ public class ApmAnalyse {
             if (test) {
                 sql = new String("select * from dumpinfo_20210718  where version = '10.29.8' limit 1");
             } else {
-                sql = new String("select id , stack from dumpinfo_20210727 where version = '10.29.23' and stackid = 5824");
+                sql = new String("select id , stack from dumpinfo_20210905 where version = '10.31.3' and stack like '%onstartinputview%'");
             }
 
             String insertSql = "insert into apm_cost (methodId,name,cost,originId) values(?,?,?,?)";
@@ -41,7 +41,9 @@ public class ApmAnalyse {
             //清空临时表
             sta.execute(truncateSql);
             res = sta.executeQuery(sql);
+            int times = 0;
             while(res.next()){
+                System.out.println("-------------------------------------"+(++times)+"------------------------------------------------");
                 String stack = res.getString("stack");
                 if (test) {
                     stack = input;
