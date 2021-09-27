@@ -1,13 +1,13 @@
 package com.dw.pingback;
 
-import org.json.JSONException;
 import org.json.JSONObject;
-import sun.plugin.javascript.JSObject;
 
 import java.io.*;
-import java.util.*;
+import java.util.Comparator;
+import java.util.Map;
+import java.util.TreeMap;
 
-public class KeyboardClose {
+public class KeyboardShow {
 
     public static void main(String[] args) {
         BufferedReader br = null;
@@ -38,7 +38,7 @@ public class KeyboardClose {
 //                System.out.println(line);
                 i ++;
 
-                String key = "fh_keyboard_time_dist:";
+                String key = "st_keyboard_time_dist:";
                 int index = line.indexOf(key);
                 if (index < 0) {
                     continue;

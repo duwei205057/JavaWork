@@ -32,7 +32,12 @@ public class ApmAnalyse {
             if (test) {
                 sql = new String("select * from dumpinfo_20210718  where version = '10.29.8' limit 1");
             } else {
-                sql = new String("select id , stack from dumpinfo_20210905 where version = '10.31.3' and stack like '%onstartinputview%'");
+//                sql = new String("select id , stack from dumpinfo_20210925 where hid in ('b37240e394036f03','15783197ce2709b8','a2262197c697495c',\n" +
+//                        "'827cbc427d075f8e','51dea25d18ce7677','3906c140cca02e56','331e835189067360','decb60a57804c0f2','0e1a8877badd29f9',\n" +
+//                        "'0194f67c88282f5a','d7bfdbeac35a7b57','ad795d7b0af244bc','481a5d906134aea2','7441fec7dcc97fab','00437a68844772a3',\n" +
+//                        "'3f4baca5dd78b453','da8811b50a734808','65a0848d6c436c2a','daff8097623a4b87','7a10a8fee1e32733','c3bc219876c238d8',\n" +
+//                        "'f14cf2954f3ee963','e8807218b22915cf')");
+                sql = new String("select id , stack from dumpinfo_20210927 where version = '10.31.3' and stackid = 22020");
             }
 
             String insertSql = "insert into apm_cost (methodId,name,cost,originId) values(?,?,?,?)";
