@@ -70,7 +70,7 @@ public class ApmAnalyse {
                     }
                     while (level <= lastLevel) {
                         //System.out.println("id " + originId + " " + lastLevel + " " +names[lastLevel] + " cost " + costs[lastLevel]);
-                        if (costs[lastLevel] > 0) {
+                        if (costs[lastLevel] >= 0) {
                             pr.setInt(1, methodIds[lastLevel]);
                             pr.setString(2, names[lastLevel]);
                             pr.setInt(3, costs[lastLevel]);
@@ -87,7 +87,7 @@ public class ApmAnalyse {
                 }
                 while (0 <= lastLevel) {
                     //System.out.println("id " + originId + " " + lastLevel + " " +names[lastLevel] + " cost " + costs[lastLevel]);
-                    if (costs[lastLevel] > 0) {
+                    if (costs[lastLevel] >= 0) {
                         pr.setInt(1, methodIds[lastLevel]);
                         pr.setString(2, names[lastLevel]);
                         pr.setInt(3, costs[lastLevel]);
